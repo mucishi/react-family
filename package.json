@@ -1,0 +1,33 @@
+{
+  "name": "react-family",
+  "version": "1.0.1",
+  "description": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "dev-build": "webpack --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mucishi/react-family.git"
+  },
+  "author": "xiaowu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mucishi/react-family/issues"
+  },
+  "homepage": "https://github.com/mucishi/react-family#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.5.5",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
